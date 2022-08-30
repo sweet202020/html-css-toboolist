@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #logo{
     margin: 0.5rem;
 }
 
 .title_logo{
-    font-family: 'Arial',  sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
     display: inline-block;
@@ -40,7 +41,7 @@ main{
     color: white;
     font-weight: bold;
     border: 1px, solid, black;
-    border-radius: 7%;
+    border-radius: 10%;
     margin-left: 3rem;
     margin-top: 0.5rem;   
 
@@ -49,6 +50,70 @@ main{
     background-color: white;
     padding: 0.25rem;
     border: 1px, solid, black;
-    border-radius: 7%;
+    border-radius: 10%;
     
 }
+.portion{
+    padding-top: 1.5rem;
+}
+
+.margin{
+    margin-left: 3rem;
+}
+h3{
+    padding-left: 1rem;
+}
+.blocco{
+    padding: 0.4rem;
+}
+.icona{
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 0.15rem;
+    margin: 0.5rem;
+    border: 1px solid;
+}
+.check{
+    border-color: green;
+    color: green;
+}
+.cross{
+    border-color: red;
+    color: red;
+}
+    
+
+.news{
+    font-size: 20px;
+}
+.mark{
+    
+    padding: 0.25rem;
+    border-radius: 20%;
+    color: white;
+}
+.blue{
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+.purple{
+    border: 1px solid purple;
+    background-color: purple;
+}
+.green{
+    border: 1px solid green;
+    background-color: green;
+}
+.orange{
+    border: 1px solid orange;
+    background-color: orange;
+}
+.fucsia{
+    border: 1px solid fuchsia;
+    background-color: fuchsia;
+}
+.yellow{
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
