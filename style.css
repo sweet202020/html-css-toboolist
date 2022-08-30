@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    margin: 0.5rem;
+}
+
+.title_logo{
+    font-family: 'Arial',  sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    vertical-align: 1.4rem;
+}
+    
