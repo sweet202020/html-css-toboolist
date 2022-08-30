@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --bol-blue: #47ADF1;
+    --bol-check: #64C0A9;
+    --bol-green: #66C1AA;
+    --bol-purple: #9C72E4;
+    --bol-yellow: #B0C926;
+    --bol-fucsia: #D863A1;
+    --bol-orange: #F29E33;
+    --bol-bg: #F6F8F9;
+
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -18,7 +30,7 @@ body{
     vertical-align: 1.4rem;
 }
 main{
-    background-color: lightgrey;
+    background-color: var(--bol-bg);
     width: 100%;
     height: 650px;
     margin: auto;
@@ -32,24 +44,25 @@ main{
     margin: auto;
 }
 .button_container{
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid var(--bol-bg);
     padding-bottom: 0.5rem;
 }
 #task{
-    background-color: blue;
+    background-color:var(--bol-blue);
     padding: 0.25rem;
     color: white;
     font-weight: bold;
-    border: 1px, solid, black;
+    border: none;
     border-radius: 10%;
     margin-left: 3rem;
     margin-top: 0.5rem;   
+    
 
 }
 #section_button{
     background-color: white;
     padding: 0.25rem;
-    border: 1px, solid, black;
+    border: 1px solid lightgray;
     border-radius: 10%;
     
 }
@@ -69,51 +82,50 @@ h3{
 .icona{
     font-weight: bold;
     border-radius: 50%;
-    padding: 0.15rem;
+    padding: 0.20rem;
     margin: 0.5rem;
     border: 1px solid;
+    
 }
 .check{
-    border-color: green;
-    color: green;
+    border-color: var(--bol-check);
+    color: var(--bol-check);
 }
 .cross{
     border-color: red;
     color: red;
 }
     
-
 .news{
     font-size: 20px;
 }
-.mark{
-    
+.mark{ 
     padding: 0.25rem;
     border-radius: 20%;
     color: white;
 }
 .blue{
-    border: 1px solid lightblue;
-    background-color: lightblue;
+    border: 1px solid var(--bol-blue);
+    background-color: var(--bol-blue);
 }
 .purple{
-    border: 1px solid purple;
-    background-color: purple;
+    border: 1px solid var(--bol-purple);
+    background-color: var(--bol-purple);
 }
 .green{
-    border: 1px solid green;
-    background-color: green;
+    border: 1px solid var(--bol-green);
+    background-color: var(--bol-green);
 }
 .orange{
-    border: 1px solid orange;
-    background-color: orange;
+    border: 1px solid var(--bol-orange);
+    background-color: var(--bol-orange);
 }
 .fucsia{
-    border: 1px solid fuchsia;
-    background-color: fuchsia;
+    border: 1px solid var(--bol-fucsia);
+    background-color: var(--bol-fucsia);
 }
 .yellow{
-    border: 1px solid yellow;
-    background-color: yellow;
+    border: 1px solid var(--bol-yellow);
+    background-color: var(--bol-yellow);
 }
 
